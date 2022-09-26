@@ -1,0 +1,63 @@
+.rightMain {
+    background-color: rgb(18, 18, 18);
+    color: white;
+    height: 85vh;
+    width: 90vw;
+    padding: 1.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -1rem;
+}
+
+.searchDiv {
+    background-color: white;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 0.5rem;
+    width: 21.5rem;
+    margin-left: 6.3rem;
+}
+
+.searchIcon {
+    width: 10%;
+    font-size: 2rem !important;
+    color: black;
+}
+
+.searchDiv>input {
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 0.5rem;
+}
+
+.profileDiv{
+    width: 10%;
+}
+.profileCollapse{
+    background-color: black !important;
+    color: white !important;
+    border-radius: 1.5rem !important;
+}
+.expIcon{
+    color: white;
+}
+.logoutBtn{
+    padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 16px;
+}
+.logoutBtn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}  
+.rightContent{
+    padding: 3rem 1rem ;
+}

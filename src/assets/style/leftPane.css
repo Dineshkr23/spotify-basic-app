@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova');
+
+.leftMain {
+    background-color: black;
+    color: rgb(179, 178, 173);
+    height: 85vh;
+    width: 10.6vw;
+    padding: 1.5rem;
+    position: relative;
+}
+
+.logo {
+    height: 2.5rem;
+    width: 9rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logoDiv {
+    margin-bottom: 1rem;
+}
+
+.leftDivs {
+    display: flex;
+    align-items: center;
+}
+
+.leftIcons {
+    font-size: xx-large !important;
+}
+
+.leftTexts {
+    margin-left: 0.7rem;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.playlist {
+    margin-top: 1.5rem;
+}
+
+.liked {
+    border-bottom: 0.01rem solid rgb(179, 178, 173);
+}
+
+.install {
+    position: absolute;
+    bottom: 0px;
+}
+
+.leftTexts:hover,
+.leftIcons:hover {
+    cursor: pointer;
+    color: white;
+}

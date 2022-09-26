@@ -1,0 +1,33 @@
+.loginBackground {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContent {
+    color: white;
+    text-align: center;
+}
+
+.loginText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginText>button {
+    background-color: black;
+    border-radius: 20px 20px;
+}
+
+.loginLogo {
+    height: 50px;
+    width: 150px;
+
+}
+
+.loginLogo:hover {
+    cursor: pointer;
+}

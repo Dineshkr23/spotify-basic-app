@@ -1,0 +1,7 @@
+.homeBackground{
+    height: 100vh;
+}
+.homeLR_Div{
+    display: flex;
+    align-items: center;
+}

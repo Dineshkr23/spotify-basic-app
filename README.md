@@ -14,6 +14,9 @@ This project was bootstrapped with [Create React App & spotifiy dev apis](https:
   - clientId =  write your Spotify client ID 
   - clientSecret = write your Spotify client secret 
  ```
+ You can get your spotify credentials by creating a developer account in Spotify : https://developer.spotify.com/dashboard/.
+ Screenshot for the same : 
+ ![image](https://user-images.githubusercontent.com/71818805/192348205-68c681ef-5eb7-4a25-b0ed-e88be479705b.png)
 
  - Run mongodb locally 
 

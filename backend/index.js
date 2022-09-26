@@ -22,7 +22,7 @@ app.use("/",routes);
 const PORT = process.env.PORT || 5000;
 
 try{
-    // await mongoLoader();
+    await mongoLoader();
     console.log("MongoDB connected successfully");
     app.listen(PORT, () => {
         console.log(`Server is running on port ${PORT}.`);

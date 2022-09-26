@@ -1,7 +1,6 @@
 import React from "react";
 import "../assets/style/login.css";
 import logo from "../assets/pictures/logo.png";
-import { authorizeUrl } from "../library/spotify";
 import axios from "axios";
 
 export const Login = () => {

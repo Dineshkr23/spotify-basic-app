@@ -3,8 +3,8 @@ const SpotifyWebApi = require('spotify-web-api-node');
 
 var scopes = ['user-read-private', 'user-read-email', 'playlist-read-private', 'playlist-modify-private'],
     redirectUri = 'http://localhost:3000/callback/',
-    clientId = "19d2a58f47ba4467835cf5642597cf76",
-    clientSecret = "a935aba083714f33a073caeaf423897f",
+    clientId = "write your client ID here",
+    clientSecret = "write your client secret here",
     state = (Math.random() + 1).toString(36).substring(7);
 
 var spotifyApi = new SpotifyWebApi({
